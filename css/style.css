@@ -1,1 +1,148 @@
-kurac
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+			 background-color: gray;
+			 font-family : sans-serif;
+}
+
+h1 {
+		margin-top: 20px;
+		text-align : center;
+		background-color : maroon;
+		margin-top: 0;
+		margin-bottom: 80px;
+}
+
+#chicken {
+					border : 3px solid black;
+					float : left;
+					margin: 20px;
+					width : 33%;
+					background-color: lightblue;
+					position: relative;
+					box-sizing: border-box;
+					border-radius: 40px 0 40px 0;
+					
+}
+				
+#ctitle {
+	position: relative;
+	float: right;
+	margin-top: 0;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	background-color: darkgreen;
+	color: white;
+	border-radius: 0 0 0 10px;
+}
+
+#ccontent {
+			clear: right;
+			font-style: italic;
+			margin-left: 10px;
+}
+
+#beef {
+				border: 3px solid black;
+				background-color: lightblue;
+				margin:20px;
+				box-sizing: border-box;
+				width: 33%;
+				display: inline-block;
+				position: relative;
+				border-radius: 40px 0 40px 0;
+}
+
+#btitle {
+					position: relative;
+					float: right;
+					border-left: 3px solid black;
+					border-bottom: 3px solid black;
+					border-radius: 0 0 0 10px;
+					margin-top: 0;
+					background-color: black;
+					color: white;
+}
+
+#bcontent{
+					clear:both;
+					font-style: italic;
+					margin-left: 10px;
+}
+
+#sushi {
+				border: 3px solid black;
+				background-color: lightblue;
+				margin:20px;
+				width: 33%;
+				box-sizing: border-box;
+				display: inline-block;
+				position: relative;
+				border-radius: 40px 0 40px 0;
+}
+
+#stitle {
+				float: right;
+				position: relative;
+				margin-top: 0;
+				background-color: blue;
+				color: white;
+				border-radius: 0 0 0 10px;
+				border-left: 3px solid black;
+				border-bottom: 3px solid black;
+}
+
+#scontent {
+						clear: both;
+						font-style: italic;
+						margin-left: 10px;
+}
+
+@media (min-width: 992px) {
+	#sushi {
+					width: 28%;
+	}
+	#beef {
+					width: 28%;
+	}
+	#chicken {
+					width: 28%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+			#chicken {
+							width: 40%;
+							margin: 5%
+			}
+			
+			#beef {
+							width: 40%;
+							margin: 5%;
+			}
+			
+			#sushi {
+							width: 90%;
+							margin: 5%;
+			}
+}						
+@media (max-width: 767px) {
+					#chicken {
+										width: 100%;
+										margin:50px;
+					}
+					
+					#beef {
+										width: 100%;
+										margin:50px;
+
+					}
+					
+					#sushi {
+										width: 100%;
+										margin:50px;
+					}
+}
